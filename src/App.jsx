@@ -2,16 +2,16 @@ import React from 'react'
 import AuthForm from './components/AuthForm'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Navbar from './components/NavBar' 
 import Home from './components/Home'
 import MyMusic from './components/MyMusic'
 import Playlist from './components/Playlist'
 import Help from './components/Help'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <div>    
         <Routes>
           <Route path='/' element={<Home />} />
