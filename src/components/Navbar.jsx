@@ -1,8 +1,8 @@
 import React from 'react'
-import './NavBar.css'
+import './Navbar.css'
 import { Link, NavLink } from 'react-router-dom'
 
-function NavBar() {
+function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -34,4 +34,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default Navbar
