@@ -1,16 +1,27 @@
-# React + Vite
+🎵 Joytify - Feel The Music
+Joytify is a sleek, responsive music web application UI designed to provide users with an immersive audio experience. Built using the speed of Vite and the flexibility of React, it focuses on a modern aesthetic and seamless navigation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+View Repository | Report Bug | Request Feature
 
-Currently, two official plugins are available:
+🚀 Features
+Modern UI/UX: A clean, dark-themed interface inspired by top-tier streaming platforms.
+Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
+Fast Performance: Powered by Vite for near-instant Hot Module Replacement (HMR).
+Component-Based: Built with reusable React components for easy scalability.
+Interactive Navigation: Includes a dynamic sidebar and navigation bar for fluid user flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Tech Stack
+Technology          Purpose
+React               Frontend Library
+Vite                Build Tool & Dev ServerCSS3Custom Styling & Layouts
+JavaScript (ES6+)   Logic & Interactivity
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Project Structure
+Joytify/
+├── public/          # Static assets (icons, images)
+├── src/             # Application source code
+│   ├── components/  # Reusable UI components
+│   ├── assets/      # Stylesheets and media
+│   └── App.jsx      # Main application logic
+├── index.html       # Entry point
+└── vite.config.js   # Vite configuration
