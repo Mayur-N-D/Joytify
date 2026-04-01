@@ -31,14 +31,15 @@ View Repository | Report Bug | Request Feature
 ---
 
 ## 📁 Project Structure
-Joytify/
-├── public/          # Static assets (icons, images)
-├── src/             # Application source code
-│   ├── components/  # Reusable UI components
-│   ├── assets/      # Stylesheets and media
-│   └── App.jsx      # Main application logic
-├── index.html       # Entry point
-└── vite.config.js   # Vite configuration
+
+- Joytify/
+- ├── public/          # Static assets (icons, images)
+- ├── src/             # Application source code
+- │   ├── components/  # Reusable UI components
+- │   ├── assets/      # Stylesheets and media
+- │   └── App.jsx      # Main application logic
+- ├── index.html       # Entry point
+- └── vite.config.js   # Vite configuration
 
 ---
 
