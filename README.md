@@ -32,14 +32,14 @@ View Repository | Report Bug | Request Feature
 
 ## 📁 Project Structure
 
-- Joytify/
-- ├── public/          
-- ├── src/             
-- │   ├── components/  
-- │   ├── assets/      
-- │   └── App.jsx      
-- ├── index.html       
-- └── vite.config.js   
+    Joytify/
+    ├── public/          
+    ├── src/             
+    │   ├── components/  
+    │   ├── assets/      
+    │   └── App.jsx      
+    ├── index.html       
+    └── vite.config.js   
 
 ---
 
